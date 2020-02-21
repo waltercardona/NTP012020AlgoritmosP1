@@ -1,13 +1,12 @@
-let pares =0;
-let impares =0;
+let pares =1;
+let impares =1;
 
 for (let n = 1; n <=100; n++) {
     if (n % 2 ==0){
-        pares = pares + n;
+        pares = pares * n;
     }else{
-        impares=impares + n;
+        impares=impares * n;
     }
     
 }
-document.write("la suma de impares es:"+ impares);
-document.write("la suma de pares es:"+ pares);
+document.write("la multiplicacion es:"+ impares);
