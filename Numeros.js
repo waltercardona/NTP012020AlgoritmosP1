@@ -10,4 +10,4 @@ for (let n = 1; n <=100; n++) {
     
 }
 document.write("la suma de impares es:"+ impares);
-document.write("la suma de impares es:"+ pares);
+document.write("la suma de pares es:"+ pares);
